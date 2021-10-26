@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans';
+    background-color: #ddd;
+}
+ /* Header*/
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    margin: 0;
+
+}
+
+nav>ul{
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+}
+li > a{
+    text-decoration: none;
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 20px 26px;
+    
+}
+li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  li a.active {
+    color: white;
+  }
+
+nav li{
+    list-style: none;
+}
+
+/* Footer */
+
+footer{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    padding: 15px 10px;
+    background-color: beige;
+
+}
+
+/* Main */
+
+main{
+    display: flex;
+    flex-direction: row;
+    min-height:100vh ;
+}
+
+.left_section{
+    max-width: 420px;
+    padding: 30px;
+    background-color: rgb(66, 64, 73);
+    color: white;
+
+}
+
+.right_section{
+    text-decoration: none;
+    list-style: none;
+    padding: 14px 16px;
+    
+}
+.right_section li{
+    list-style: none;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+#about img{
+    border-radius: 5px;
+}
+
+/* Contact */
+.contact{
+    background-color:rgb(48, 28, 66);
+}
+
+
+.itd_circle {
+    margin: 0 auto 15px;
+    width: 60px;
+    height: 60px;
+    border: 3px solid rgb(148, 137, 100);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(56, 59, 59);
+}
+.line{
+    width: 100px;
+    height: 3px;
+    background-color: rgb(108, 138, 138);
+    margin: 15px auto 30px;
+
+}
+
+.progress{
+
+}
+
+#skills{
+    font-size: 19px;
+    padding: 20px;
+}
+
+#education{
+    font-size: 23px;
+
+    
+}
+
+#education tbody{
+    background-color: rgb(191, 189, 192);
+}
